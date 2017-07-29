@@ -1,0 +1,82 @@
+a
+{
+    text-decoration: none;
+}
+
+a:link
+{
+    color: orange;
+}
+
+a:visited
+{
+    color: deepskyblue;
+}
+
+a:hover{
+    text-decoration:
+    underline;
+}
+
+a:active
+{
+    color: fuchsia;
+}
+
+a:focus{
+    color: firebrick;
+}
+
+#p1
+{
+    color: blue;
+}
+
+#p1:target
+{
+    color: green;
+}
+
+p:lang(pl)
+{
+    font-style: italic;
+    color: darkcyan;
+}
+
+p:lang(en)
+{
+    font-style: italic;
+    color: yellow;
+}
+
+p:lang(de)
+{
+    font-style: italic;
+    color: darkgoldenrod;
+}
+
+div.klient:first-child
+{
+    color: chartreuse;
+}
+div.klient:empty 
+{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.klient:nth-child(even)
+{
+    background-color: gold;
+}
+
+.klient:nth-child(odd)
+{
+background-color: lightpink;
+}
+
+.klient:nth-child(5n)
+{
+    background-color: olivedrab;
+}
