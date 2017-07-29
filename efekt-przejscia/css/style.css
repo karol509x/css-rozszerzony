@@ -19,7 +19,7 @@
 #box2
 {
     background-color: green;
-    transition: height 2s;
+    transition: height 3s;
 }
 
 #box2:hover
@@ -30,7 +30,7 @@
 {
     background-color: blue;
     transition: width 2s;
-    height: 3s;
+    height: 2s;
 }
 
 #box3:hover
@@ -42,10 +42,10 @@
 #colors
 {
     background-color: yellow;
+    transition: background-color 3s easy-in 2s;
 }
 
 #colors:hover
 {
-    background-color: 
-    deeppink;
+    background-color: deeppink;
 }
