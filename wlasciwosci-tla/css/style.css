@@ -1,0 +1,8 @@
+#tlo-obrazek
+{
+    background-color: aqua;
+    background-image: url("../img/tlo.jpg");
+    background-repeat: repeat-x;
+    background-position: top center;
+    background-attachment: fixed;
+}
